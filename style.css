@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 80px;
+    background-color: #fdf0d5; 
+    height: 100vh;
+    font-size: 25px;
+    text-align: center;
+    overflow: hidden;
+}
+button:focus{
+    outline: none;
+}
+
+.head h1{
+    font-family: 'Rock Salt',
+    cursive;
+    font-weight: 700;
+    font-size: 80px;
+    color:#C42016;
+}
+
+
+.container{
+    height: 80vh;
+    border-radius: 25px;
+    padding: 40px 100px;
+    background: #fdf0d5;
+    color: #fff;
+}
+
+#jokediv{
+    padding: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#jokeBtn{
+    padding: 10px 20px;
+    background: #fff;
+    border: 1px solid #FC7C70;
+    color: black;
+    border-radius: 5px;
+
+
+}
+#jokeBtn:hover{
+    background: #C42016;
+    color: white;
+
+
+}
+
+.joke{
+    padding: 10px;
+    color: #4d4d4e;
+}
